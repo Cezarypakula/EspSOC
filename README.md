@@ -80,8 +80,18 @@ python pyqt.py
 
 ## 📈 Capturas de Pantalla
 
-> *(Agrega aquí imágenes del login, dashboard, gráficos, etc.)*
-
+> *![image](https://github.com/user-attachments/assets/2f8b0f8c-9eaf-44a3-8e17-4d5aac0b01fe)*
+> *![image](https://github.com/user-attachments/assets/34131284-ae73-492c-b2bd-33bbb18113bd)*
+> *![image](https://github.com/user-attachments/assets/f8e85e80-0a03-4443-b425-0a2cd0b9d885)*
+> *![image](https://github.com/user-attachments/assets/37504661-d62d-401d-bc73-10170598a068)*
+> *![image](https://github.com/user-attachments/assets/a9bba4de-4328-4566-9a39-a606c35170d6)*
+> *![image](https://github.com/user-attachments/assets/cd6d7dd0-4031-4fd0-b985-31f3b7b6adaa)*
+> *![image](https://github.com/user-attachments/assets/f2b42674-ec41-446e-9c30-1a29ba219bf0)*
+> *![image](https://github.com/user-attachments/assets/61455366-f2d8-4796-9f08-6d2a2f82ea43)*
+> *![image](https://github.com/user-attachments/assets/ee586224-8de7-4165-9ba0-faa9b5bf58c5)*
+> *![image](https://github.com/user-attachments/assets/c929b24b-8a5a-47c9-b0f3-a7ed6971277f)*
+> *![image](https://github.com/user-attachments/assets/b158e29e-8c31-4ed5-91a1-c6aa87aed7e7)*
+> *![image](https://github.com/user-attachments/assets/e5291e63-e601-497b-afc4-4aab181dd5c7)*
 ---
 
 ## 🎯 To-Do
@@ -95,9 +105,9 @@ python pyqt.py
 
 ## 👨‍💻 Autor
 
-Desarrollado por **[Tu Nombre o Alias]**  
-🔗 GitHub: [https://github.com/tuusuario](https://github.com/tuusuario)  
-📫 Contacto: *[tuemail@example.com]* o *[Discord: TuUsuario#0000]*
+Desarrollado por **[Phsyco]**  
+🔗 GitHub: [https://github.com/tuusuario](https://github.com/AudiForze)  
+📫 Contacto: *[geremygomez312@gmail.com]* o *[Discord: physco_0312]*
 
 ---
 
@@ -108,7 +118,7 @@ Este proyecto está licenciado bajo la **MIT License**.
 ```
 MIT License
 
-Copyright (c) 2025 TuNombre
+Copyright (c) 2025 Geremy
 
 Se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia de este software y los archivos de documentación asociados (el "Software"), para utilizar el Software sin restricción, incluyendo sin limitación los derechos de usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y permitir a las personas a quienes se les proporcione el Software que lo hagan, sujeto a las siguientes condiciones:
 
