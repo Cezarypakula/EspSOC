@@ -106,7 +106,7 @@ python pyqt.py
 ## 👨‍💻 Autor
 
 Desarrollado por **[Phsyco]**  
-🔗 GitHub: [https://github.com/tuusuario](https://github.com/AudiForze)  
+🔗 GitHub: [https://github.com/AudiForze](https://github.com/AudiForze)  
 📫 Contacto: *[geremygomez312@gmail.com]* o *[Discord: physco_0312]*
 
 ---
